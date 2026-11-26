@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="1120"
+  height="560"
+  viewBox="0 0 1120 560"
+  role="img"
+  aria-labelledby="title desc">
+
+  <title id="title">Steve Odumbe, Software Developer</title>
+
+  <desc id="desc">
+    Software developer building web applications with modern
+    frontend and backend technologies.
+  </desc>
+
+  <defs>
+    <linearGradient id="shimmer-grad"
+      x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="42%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="58%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+
+      <animateTransform
+        attributeName="gradientTransform"
+        type="translate"
+        from="-1 -1"
+        to="1 1"
+        dur="4.5s"
+        repeatCount="indefinite"/>
+    </linearGradient>
+
+    <clipPath id="portrait-clip">
+      <rect x="625" y="45" width="450" height="475" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .bg {
+      fill: #FAFAF8;
+    }
+
+    .eyebrow {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 13px;
+      letter-spacing: 0.14em;
+      fill: #7B7B82;
+    }
+
+    .display-title {
+      font-family: "Plus Jakarta Sans", Inter, Arial, sans-serif;
+      font-size: 106px;
+      font-weight: 700;
+      letter-spacing: -0.045em;
+      fill: #171719;
+    }
+
+    .accent-letter {
+      fill: #FF5349;
+    }
+
+    .role {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      fill: #171719;
+    }
+
+    .bio {
+      font-family: Inter, Arial, sans-serif;
+      font-size: 19px;
+      fill: #5C5C63;
+    }
+
+    .domain-link {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 15px;
+      fill: #171719;
+    }
+
+    .ascii-art {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 7px;
+      letter-spacing: 0;
+      fill: #262523;
+    }
+  </style>
+
+  <!-- Main card -->
+  <rect class="bg" width="1120" height="560" rx="22"/>
+
+  <rect x="1" y="1" width="1118" height="558"
+    rx="21" fill="none"
+    stroke="#E5E5E2"/>
+
+  <!-- Decorative background -->
+  <circle cx="1040" cy="85" r="125"
+    fill="#FF5349" opacity="0.07"/>
+
+  <circle cx="1080" cy="475" r="100"
+    fill="#AA6EFF" opacity="0.09"/>
+
+  <path d="M875 0 H1120 V560 H980
+    C1045 440 1000 310 940 220
+    C900 155 875 80 875 0Z"
+    fill="#F3F3F1"/>
+
+  <path d="M970 0 H1120 V560 H1060
+    C1110 420 1080 300 1030 190
+    C1000 125 980 60 970 0Z"
+    fill="#00B075" opacity="0.07"/>
+
+  <!-- Eyebrow -->
+  <rect x="64" y="62" width="11" height="11"
+    rx="3" fill="#FF5349"/>
+
+  <text class="eyebrow" x="88" y="73">
+    GITHUB PROFILE / 01
+  </text>
+
+  <!-- Display name -->
+  <text class="display-title" x="60" y="205">
+    Steve
+  </text>
+
+  <text class="display-title" x="60" y="310">
+    Odumbe<tspan class="accent-letter">.</tspan>
+  </text>
+
+  <!-- Developer role -->
+  <rect x="64" y="350" width="8" height="8"
+    rx="2" fill="#FF5349"/>
+
+  <text class="role" x="88" y="360">
+    SOFTWARE DEVELOPER
+  </text>
+
+  <!-- Introduction -->
+  <text class="bio" x="64" y="414">
+    Building web applications with modern
+  </text>
+
+  <text class="bio" x="64" y="444">
+    frontend and backend technologies.
+  </text>
+
+  <!-- Portfolio link -->
+  <text class="domain-link" x="64" y="510">
+    steveodumbe.works
+    <tspan fill="#FF5349"> ↗</tspan>
+  </text>
+
+  <!-- ASCII portrait -->
+  <g clip-path="url(#portrait-clip)">
+    <text class="ascii-art">
+      <tspan x="635" y="75.0" xml:space="preserve">                         .  :=#%%%%@@@@@@@@@##@@@@@@@@@@@@@@@@@@@@@@= .                             </tspan>
+      <tspan x="635" y="83.5" xml:space="preserve">                        . .=#@@%%@@@%#@@@@@@*#@@@@@@@#@@@@@@@@@@@@@@@- .                            </tspan>
+      <tspan x="635" y="92.0" xml:space="preserve">                       . .#%@@%%@@@@%######%##%#%%%%##@@@@@@%%@%%%%@@#..                            </tspan>
+      <tspan x="635" y="100.5" xml:space="preserve">                       ..*%#*##%%###*****************###%%%%@%%%%@%%@@: .                           </tspan>
+      <tspan x="635" y="109.0" xml:space="preserve">                      . .*#*+*#********++++++++*********#####%%%%%#**@-..                           </tspan>
+      <tspan x="635" y="117.5" xml:space="preserve">                     . :++==++******++++++++++++++*******#######**%%%#- .                           </tspan>
+      <tspan x="635" y="126.0" xml:space="preserve">                    . :*#=-++****+++++++++==++++++++******#######*%@%%#- .                          </tspan>
+      <tspan x="635" y="134.5" xml:space="preserve">                   . :*#+-++*****+++++=========++++++*****#########%%%##: .                         </tspan>
+      <tspan x="635" y="143.0" xml:space="preserve">                  . .+*#-=+*****++++====------===+++++****#########%@%%#+...                        </tspan>
+      <tspan x="635" y="151.5" xml:space="preserve">                  ..=***=+******++++===-------===++++*****#########%@%%##- .                        </tspan>
+      <tspan x="635" y="160.0" xml:space="preserve">                 . :++**=+******++++===-------==+++++******########%%%%##+.                         </tspan>
+      <tspan x="635" y="168.5" xml:space="preserve">                 . -++**=+******+++++===-------==++++++*****#######%%%%##*: .                       </tspan>
+      <tspan x="635" y="177.0" xml:space="preserve">                   -=++==+**+++++======---------======+++++****######%####- .                       </tspan>
+      <tspan x="635" y="185.5" xml:space="preserve">                   -==-=-=********+==--------------+**###%%%%%%%#*+***####- .                       </tspan>
+      <tspan x="635" y="194.0" xml:space="preserve">                   -+-:-=#@@@@@@@@@@%%#+=========+#%%@@@@@@@@@@@@%*+*+*###- .                       </tspan>
+      <tspan x="635" y="202.5" xml:space="preserve">                 . -+::=%%%####%%@@%%%#**++++++***#%%@@@@%%#####%@@+=+=###- .                       </tspan>
+      <tspan x="635" y="211.0" xml:space="preserve">                 . :+::*#********#%%%%%##******##%%@@@@%##*######%%#=+=*##:....                     </tspan>
+      <tspan x="635" y="219.5" xml:space="preserve">                ....=::*###%%%###%%@@@@@%###*###%@@@@%@%%*%@@@@@@@%%*+=+##.    .                    </tspan>
+      <tspan x="635" y="228.0" xml:space="preserve">               .    -:=*%%@@*%@*#@@%%@%%%#*+++*#%%@%%@**@*%@@%*@@@@%%*+=%+ .::                      </tspan>
+      <tspan x="635" y="236.5" xml:space="preserve">                .----:+##%@*.+@@@@@==##*#*+=-=+*##%*%*::%@@@@+=#@%%%%#+=%%*###*: .                  </tspan>
+      <tspan x="635" y="245.0" xml:space="preserve">             . :##+*=:*****%*+*%#%#**+***++===++**##*+***#%%##%%%#####*=*@%#%@@* .                  </tspan>
+      <tspan x="635" y="253.5" xml:space="preserve">             . -%#**--+*++**#####***+++++++===++******+***#####*****##*=+@%@%%%*.                   </tspan>
+      <tspan x="635" y="262.0" xml:space="preserve">             . -*+*#--+*++++++++=====++++++===+******+++++++++++++**##*==@@@##%+..                  </tspan>
+      <tspan x="635" y="270.5" xml:space="preserve">             . .++*%--+**+++++=======+**++=====++****+====++++++***###+=*%@@###: ..                 </tspan>
+      <tspan x="635" y="279.0" xml:space="preserve">              . -*+*--****+++====---=+=====-:-=++==+**=====++++***####++#%@%##%*:  ..               </tspan>
+      <tspan x="635" y="287.5" xml:space="preserve">              ...++++-+***++++===-==++=+**+++++*#**+*##===++++***##%%#*#@@%%%%@@@=.  .              </tspan>
+      <tspan x="635" y="296.0" xml:space="preserve">               . .+++++##***+++=====+%%@@@%%%%%@@@@@%@%+++++****##%%%###@@##@@@@@@#=. ..            </tspan>
+      <tspan x="635" y="304.5" xml:space="preserve">                . .:**+*###***+++==++*#***++********#*+++++***##%%%%%%*%%%#%@@@@@@@@#-  .           </tspan>
+      <tspan x="635" y="313.0" xml:space="preserve">                 .  -**+#####***++++++++++====-=++++++******###%%%%%%##@@@@@@@@@@@@@@%*: ..         </tspan>
+      <tspan x="635" y="321.5" xml:space="preserve">                   . ..-*#####***+++++++++++++++***********###%%%%%%%#%@@@@@@@@@@@%@@@@%=  .        </tspan>
+      <tspan x="635" y="330.0" xml:space="preserve">                    .  .+###*##***#****##*****#####%####%%###%%%%%%%%#@@@@@@@@@@@@@%%@@%%*: .       </tspan>
+      <tspan x="635" y="338.5" xml:space="preserve">                      . -*##**###%%%@@%%%%%%%@@@%%%%@@@@%%##%%%#%@%%#%@@@@@@@@@@@@@@@#%@%%#: .      </tspan>
+      <tspan x="635" y="347.0" xml:space="preserve">                     ..:-=##*+####*##***+==+**+==++*#######%%%%%%%%%%@@@@@@@@@@@@@@@@@%%@%%@= .     </tspan>
+      <tspan x="635" y="355.5" xml:space="preserve">                     . =:.*##**%%#######*+======+*##%%%%%%%%@%%%@@%%%@@@@@@@@@@@@@@@@@@@%*+*- .     </tspan>
+      <tspan x="635" y="364.0" xml:space="preserve">                     . =+ .+##**%%%##%%%%%%%%%%%%%@@@@%%%@@@@%%@@@@%%@@@@@@@@@@@@@@@@@@@@*          </tspan>
+      <tspan x="635" y="372.5" xml:space="preserve">                    .. :*  .+##*%%%%%%%%@@@@@@@@@@@@@%@@@@@@@%@@@@@%%@@@@@@@@@@@@%@@@%@@@@=..       </tspan>
+      <tspan x="635" y="381.0" xml:space="preserve">                 ..    .=-=-=###%@%%#######%@@@@%%%%%%%%@@@@@@@@@@@%%@@@@@@@@%@@@@@@@@%@@@*..       </tspan>
+      <tspan x="635" y="389.5" xml:space="preserve">             ...   ..:--=++==#%@@@@@%##%%%@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@%=:-...       </tspan>
+      <tspan x="635" y="398.0" xml:space="preserve">          ..    ..:--===+*-++*%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@%@%@%@#.   ....    </tspan>
+      <tspan x="635" y="406.5" xml:space="preserve">       ..    .::-----=**+-:+#*#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@%@@@@%@#=:.    ... </tspan>
+      <tspan x="635" y="415.0" xml:space="preserve">    .    ...:--=---=+**==-:-%##%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@@@@@@@@@%%@@@%%%#%*+-..    </tspan>
+      <tspan x="635" y="423.5" xml:space="preserve">..    ..::-----:--=**=--=-::+%#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#@@@@@@@@@@%%@@@%%%#%##*=-:..</tspan>
+      <tspan x="635" y="432.0" xml:space="preserve">   ..::-------:--=**=--===---*%#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#%@@@@%@@@@@%%@@@@%%%###***++=</tspan>
+      <tspan x="635" y="440.5" xml:space="preserve">..::------------=**=---====---*%#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##%@@@@@@@@@@%%%@@@@##%#**+++**</tspan>
+      <tspan x="635" y="449.0" xml:space="preserve">---------------=+*+----======-:*@%#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##%%@@@@@@@@@@@%%@@%%@%%%#*+++++</tspan>
+      <tspan x="635" y="457.5" xml:space="preserve">---------------=**+----=+=====-:+@%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@%###%%@@@@@@@@@#@@%%@@#%@#%%#*++++</tspan>
+      <tspan x="635" y="466.0" xml:space="preserve">---------------=+*+----=*======--=%@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@%###%%%%%@@@@@@%**@%%%%%##@%%%%#*++</tspan>
+      <tspan x="635" y="474.5" xml:space="preserve">---------------=+*+----=*========--*%@%%@@@@@@@@@@@@@@@@@@@@@@@@#*##%%%%%%@%%@%%#*+%@@@%%%##%@@@@#*+</tspan>
+      <tspan x="635" y="483.0" xml:space="preserve">---------------=*#+--=-=*======+==-:=%@@%@@@@@@@@@@@@@@@@@@@@@%++##%%%%%%@%####***+*@#%@@@@#+*%%%#++</tspan>
+      <tspan x="635" y="491.5" xml:space="preserve">---------------=*#=--=--*===-==+++==@%+%@@@@@@@@@@@@@@@@@@@@@*%%*#%%%%##@%##*#**+*+=##+*#%@%*===+===</tspan>
+      <tspan x="635" y="500.0" xml:space="preserve">---------------=*#=--=--+=-+====++=*@#+=+%@@@@@@@@@@@@@@@@@@**@@#%%%%##%%##**#**++*=+#+==++++=======</tspan>
+      <tspan x="635" y="508.5" xml:space="preserve">---------------+#*=-==--=+-=+===+*++@%**==@@@@@@@@@@@@@@@@@*+%@@#%@%##%#*#*+**+++++==#*=============</tspan>
+      <tspan x="635" y="517.0" xml:space="preserve">--------------=+#*--==---+--+====*#*%@*#*=*@@@@@@@@@@@@@@@%=#%@@#@@%#%#****+**+++=++=+#==========---</tspan>
+      <tspan x="635" y="525.5" xml:space="preserve">--------------=*#+--==---==-==-===*=%@#++**@@@@@@@@@@@@@@@**%%@@#%%#%**#*+++*++====+==*+===-==------</tspan>
+    </text>
+
+    <!-- Shimmer effect -->
+    <rect x="625" y="45" width="450" height="475"
+      fill="url(#shimmer-grad)"
+      pointer-events="none"/>
+  </g>
+
+  <!-- Portrait frame -->
+  <rect x="625" y="45" width="450" height="475"
+    rx="12" fill="none"
+    stroke="#E5E5E2"/>
+
+  <!-- Footer label -->
+  <text x="1075" y="540"
+    text-anchor="end"
+    font-family="JetBrains Mono, monospace"
+    font-size="10"
+    letter-spacing="1.2"
+    fill="#7B7B82">
+    DESIGN. BUILD. ITERATE.
+  </text>
+
+</svg>
